@@ -70,7 +70,7 @@ int main(void)
 
     IndexBuffer ib(indices, 6);
      
-    glm::mat4 proj = glm::ortho(0.0f, 960.0f, 0.0f, 540.0f, -1.0f, 1.0f);
+    glm::mat4 proj = glm::ortho(0.0f, 960.0f, 0.0f, 540.0f, 0.0f, 500.0f);
     glm::mat4 view = glm::translate(glm::mat4 (1.0f), glm::vec3(0, 0, 0));
     //glm::rotate
 
